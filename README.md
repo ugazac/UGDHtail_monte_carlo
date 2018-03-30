@@ -5,9 +5,9 @@ The code contained in this repository is for a Nature submission from Zachary Wo
 # Description of program
 The code generates random self-avoiding conformations for a given n-mer of the UGDH tail. For simplicity, in the current version, polySer is used for the tail, but the code can take any arbitrary sequence. The input for the program is as follows:
 
-..1. <first_tail*.inp> : input file describing the monomer containing the tail ending with a n-mer of polySer.
-..2. Hexamer_surface.pdb : The surface defined by the hexamer in PDB coordinates. Note that the coordinates in this file are taken for examining the clash between the tail and the hexamer surface. Any translation/rotation of the coordinates of atoms in this file will result in incorrect behavior.
-..3. <sec*mer.pdb> : The coordinates of the atoms of the second tail.
+  1  <first_tail*.inp> : input file describing the monomer containing the tail ending with a n-mer of polySer.
+  2  Hexamer_surface.pdb : The surface defined by the hexamer in PDB coordinates. Note that the coordinates in this file are taken for examining the clash between the tail and the hexamer surface. Any translation/rotation of the coordinates of atoms in this file will result in incorrect behavior.
+  3  <sec*mer.pdb> : The coordinates of the atoms of the second tail.
 
 The program takes the first input (the n-mer tail) and generates the coordinates according to the input (which includes all bond angles and phi/psi values for the monomer). Then, ‘n’ random numbers are generated and phi/psi combinations (at 10 degree intervals) are selected at random for the n-mer tail keeping the rest of the monomer fixed.
 
@@ -15,12 +15,12 @@ Using the Ramachandran et al procedure with hard sphere potential, self-clashes 
 
 For all the clashes, the Ramachandran et al defined ‘outer limits’ are used. The program will output six numbers to stdout which are delimited by a {tab} character. These six numbers are described below in the order in which they appear as output:
 
-..1. No clash : cumulative number of self-avoiding tail conformations found that do not show clash with either the hexamer surface or the second tail.
-..2. No surface clash : cumulative number of self-avoiding conformations found that do not show clash with the surface, but clash with the second tail.
-..3. Self-avoiding conformations : the cumulative number of self-avoiding conformations examined for clashes.
-..4. Ratio of (1)/(3) : this ratio determines the decrease in entropy in the tail due to confinement by the surface and the presence of the second tail.
-..5. Ratio of (2)/(3) : this ratio determines the decrease in entropy in the tail due to confinement only by the surface.
-..6. Total number of trials : the total monte carlo trials performed to arrive at the self-avoiding conformations.
+  1  No clash : cumulative number of self-avoiding tail conformations found that do not show clash with either the hexamer surface or the second tail.
+  2  No surface clash : cumulative number of self-avoiding conformations found that do not show clash with the surface, but clash with the second tail.
+  3  Self-avoiding conformations : the cumulative number of self-avoiding conformations examined for clashes.
+  4  Ratio of (1)/(3) : this ratio determines the decrease in entropy in the tail due to confinement by the surface and the presence of the second tail.
+  5  Ratio of (2)/(3) : this ratio determines the decrease in entropy in the tail due to confinement only by the surface.
+  6  Total number of trials : the total monte carlo trials performed to arrive at the self-avoiding conformations.
 
 
 # Pre-requisites and instructions for compiling the code
