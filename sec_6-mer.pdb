@@ -1,0 +1,117 @@
+USER  MOD reduce.3.23.130521 H: found=143, std=168, add=31, rem=0, adj=28
+USER  MOD -----------------------------------------------------------------
+USER  MOD scores for adjustable sidechains, with "set" totals for H,N and Q
+USER  MOD "o" means original, "f" means flipped, "180deg" is methyl default
+USER  MOD "!" flags a clash with an overlap of 0.40A or greater
+USER  MOD flip categories: "K"=keep, "C"=clashes, "X"=uncertain, "F"=flip
+USER  MOD Set 1.1: G 481 SER OG  :   rot  180:sc=       0
+USER  MOD Set 1.2: G 483 SER OG  :   rot  180:sc=   0.193
+USER  MOD Set 2.1: G 477 SER OG  :   rot  152:sc=   0.774
+USER  MOD Set 2.2: G 482 SER OG  :   rot  180:sc=   0.624
+USER  MOD Set 3.1: G 471 SER OG  :   rot  180:sc=       0
+USER  MOD Set 3.2: G 472 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 465 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 466 SER OG  :   rot  180:sc=   0.372
+USER  MOD Single : G 467 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 468 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 469 SER OG  :   rot  180:sc=   0.106
+USER  MOD Single : G 470 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 473 SER OG  :   rot  180:sc= 0.00277
+USER  MOD Single : G 474 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 475 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 476 SER OG  :   rot  180:sc=  0.0324
+USER  MOD Single : G 478 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 479 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 480 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 484 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 485 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 486 SER OG  :   rot  180:sc=  0.0115
+USER  MOD Single : G 487 SER OG  :   rot   15:sc=  0.0253
+USER  MOD Single : G 488 SER OG  :   rot   84:sc=    1.33
+USER  MOD Single : G 489 SER OG  :   rot  -36:sc=   0.308
+USER  MOD Single : G 490 SER OG  :   rot  180:sc=  0.0555
+USER  MOD Single : G 491 SER OG  :   rot  180:sc=       0
+USER  MOD Single : G 492 SER OG  :   rot   54:sc=   0.614
+USER  MOD -----------------------------------------------------------------
+ATOM      1  C   ACE G 464      30.906   8.409  17.680  1.00  0.00           C
+ATOM      2  O   ACE G 464      30.519   9.122  16.750  1.00  0.00           O
+ATOM      3  CH3 ACE G 464      32.376   8.141  17.873  1.00  0.00           C
+ATOM      4 1HH3 ACE G 464      32.888   9.092  17.978  1.00  0.00           H
+ATOM      5 2HH3 ACE G 464      32.549   7.552  18.773  1.00  0.00           H
+ATOM      6 3HH3 ACE G 464      32.752   7.610  17.006  1.00  0.00           H
+ATOM      0  H1  ACE G 464      32.652   8.463  18.745  1.00  0.00           H   new
+ATOM      0  H2  ACE G 464      32.542   7.187  17.813  1.00  0.00           H   new
+ATOM      0  H3  ACE G 464      32.882   8.600  17.185  1.00  0.00           H   new
+ATOM      7  N   SER G 465      30.095   7.835  18.564  1.00  0.00           N
+ATOM      8  CA  SER G 465      28.657   8.098  18.660  1.00  0.00           C
+ATOM      9  C   SER G 465      28.395   9.575  19.003  1.00  0.00           C
+ATOM     10  O   SER G 465      29.151  10.193  19.762  1.00  0.00           O
+ATOM     11  CB  SER G 465      28.045   7.166  19.709  1.00  0.00           C
+ATOM     12  OG  SER G 465      26.635   7.187  19.626  1.00  0.00           O
+ATOM     13  H   SER G 465      30.451   7.360  19.186  1.00  0.00           H   std
+ATOM     14  HA  SER G 465      28.253   7.899  17.801  1.00  0.00           H   std
+ATOM     15  HB1 SER G 465      28.369   7.477  20.703  1.00  0.00           H
+ATOM     16  HB2 SER G 465      28.352   6.259  19.554  1.00  0.00           H   std
+ATOM     17  HG  SER G 465      26.344   6.663  20.215  1.00  0.00           H   std
+ATOM      0  HB3 SER G 465      28.326   7.439  20.596  1.00  0.00           H   new
+ATOM     18  N   SER G 466      27.359  10.168  18.403  1.00  0.00           N
+ATOM     19  CA  SER G 466      27.119  11.620  18.431  1.00  0.00           C
+ATOM     20  C   SER G 466      25.636  11.971  18.594  1.00  0.00           C
+ATOM     21  O   SER G 466      25.192  12.226  19.715  1.00  0.00           O
+ATOM     22  CB  SER G 466      27.755  12.289  17.198  1.00  0.00           C
+ATOM     23  OG  SER G 466      27.235  11.745  15.996  1.00  0.00           O
+ATOM     24  H   SER G 466      26.848   9.686  17.907  1.00  0.00           H   std
+ATOM     25  HA  SER G 466      27.562  11.992  19.209  1.00  0.00           H   std
+ATOM     26  HB1 SER G 466      28.835  12.133  17.223  1.00  0.00           H
+ATOM     27  HB2 SER G 466      27.580  13.243  17.221  1.00  0.00           H   std
+ATOM     28  HG  SER G 466      27.605  12.136  15.351  1.00  0.00           H   std
+ATOM      0  HB3 SER G 466      28.717  12.168  17.221  1.00  0.00           H   new
+ATOM     29  N   SER G 467      24.871  11.979  17.494  1.00  0.00           N
+ATOM     30  CA  SER G 467      23.425  12.248  17.411  1.00  0.00           C
+ATOM     31  C   SER G 467      22.967  13.476  18.225  1.00  0.00           C
+ATOM     32  O   SER G 467      21.966  13.453  18.952  1.00  0.00           O
+ATOM     33  CB  SER G 467      22.664  10.961  17.733  1.00  0.00           C
+ATOM     34  OG  SER G 467      21.384  10.983  17.140  1.00  0.00           O
+ATOM     35  H   SER G 467      25.277  11.773  16.764  1.00  0.00           H   std
+ATOM     36  HA  SER G 467      23.245  12.459  16.481  1.00  0.00           H   std
+ATOM     37  HB1 SER G 467      22.584  10.828  18.814  1.00  0.00           H
+ATOM     38  HB2 SER G 467      23.151  10.211  17.357  1.00  0.00           H   std
+ATOM     39  HG  SER G 467      21.021  10.256  17.351  1.00  0.00           H   std
+ATOM      0  HB3 SER G 467      22.580  10.860  18.694  1.00  0.00           H   new
+ATOM     40  N   SER G 468      23.787  14.533  18.171  1.00  0.00           N
+ATOM     41  CA  SER G 468      23.957  15.447  19.303  1.00  0.00           C
+ATOM     42  C   SER G 468      22.797  16.422  19.514  1.00  0.00           C
+ATOM     43  O   SER G 468      22.315  17.071  18.580  1.00  0.00           O
+ATOM     44  CB  SER G 468      25.288  16.200  19.200  1.00  0.00           C
+ATOM     45  OG  SER G 468      25.598  16.712  20.478  1.00  0.00           O
+ATOM     46  H   SER G 468      24.416  14.513  17.584  1.00  0.00           H   std
+ATOM     47  HA  SER G 468      24.015  14.891  20.096  1.00  0.00           H   std
+ATOM     48  HB1 SER G 468      25.206  17.012  18.473  1.00  0.00           H
+ATOM     49  HB2 SER G 468      25.991  15.590  18.926  1.00  0.00           H   std
+ATOM     50  HG  SER G 468      26.326  17.130  20.452  1.00  0.00           H   std
+ATOM      0  HB3 SER G 468      25.222  16.920  18.553  1.00  0.00           H   new
+ATOM     51  N   SER G 469      22.394  16.553  20.778  1.00  0.00           N
+ATOM     52  CA  SER G 469      21.479  17.584  21.270  1.00  0.00           C
+ATOM     53  C   SER G 469      22.227  18.882  21.594  1.00  0.00           C
+ATOM     54  O   SER G 469      23.419  18.868  21.904  1.00  0.00           O
+ATOM     55  CB  SER G 469      20.775  17.049  22.517  1.00  0.00           C
+ATOM     56  OG  SER G 469      19.811  17.958  23.009  1.00  0.00           O
+ATOM     57  H   SER G 469      22.814  16.092  21.371  1.00  0.00           H   std
+ATOM     58  HA  SER G 469      20.807  17.770  20.595  1.00  0.00           H   std
+ATOM     59  HB1 SER G 469      21.513  16.853  23.296  1.00  0.00           H
+ATOM     60  HB2 SER G 469      20.331  16.217  22.291  1.00  0.00           H   std
+ATOM     61  HG  SER G 469      19.472  17.594  23.686  1.00  0.00           H   std
+ATOM      0  HB3 SER G 469      21.432  16.870  23.207  1.00  0.00           H   new
+ATOM     62  N   SER G 470      21.517  20.011  21.568  1.00  0.00           N
+ATOM     63  CA  SER G 470      22.012  21.293  22.093  1.00  0.00           C
+ATOM     64  C   SER G 470      21.606  21.535  23.557  1.00  0.00           C
+ATOM     65  O   SER G 470      22.115  22.466  24.181  1.00  0.00           O
+ATOM     66  CB  SER G 470      21.523  22.434  21.199  1.00  0.00           C
+ATOM     67  OG  SER G 470      22.021  22.282  19.881  1.00  0.00           O
+ATOM     68  H   SER G 470      20.695  19.974  21.318  1.00  0.00           H   std
+ATOM     69  HA  SER G 470      22.982  21.300  22.070  1.00  0.00           H   std
+ATOM     70  HB1 SER G 470      21.860  23.387  21.600  1.00  0.00           H
+ATOM     71  HB2 SER G 470      20.553  22.436  21.180  1.00  0.00           H   std
+ATOM     72  HG  SER G 470      21.721  22.931  19.439  1.00  0.00           H   std
+ATOM      0  HB3 SER G 470      21.813  23.285  21.564  1.00  0.00           H   new
+END
